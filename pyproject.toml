@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "timetrace-debugger"
-version = "1.0.2"
+version = "1.0.4"
 description = "Time-travel debugging engine for Python"
 readme = "readme.md"
 requires-python = ">=3.8"
@@ -15,3 +15,7 @@ authors = [
 
 [project.scripts]
 timetrace = "timetrace.main:main"
+
+[project.urls]
+Homepage = "https://github.com/shashi065/timetrace-debugger"
+Repository = "https://github.com/shashi065/timetrace-debugger"
